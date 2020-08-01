@@ -5,7 +5,8 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
-    "node.js": "^0.0.1-security"
+    "node.js": "^0.0.1-security",
+    "uuid": "^8.3.0"
   },
   "devDependencies": {},
   "scripts": {
