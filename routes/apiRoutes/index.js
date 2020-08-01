@@ -9,7 +9,6 @@ router.get("/notes", (req, res) => {
 
 router.post("/notes", (req, res) => {
     // set id based on what the next index of the array will be
-    // req.body.id = randomenumber;
     req.body.id = uuidv4()
     const note = createNewNote(req.body, db);
     res.json(note);
